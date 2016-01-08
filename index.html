@@ -1,178 +1,297 @@
 <html>
-  
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Sara's Resume</title>
-   <link rel="stylesheet" href="assets/styles/style.css">
-    
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
-    crossorigin="anonymous">-->
-    
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
-  
-  
-  <body>   
-      
-    <div class="col-xs-12" style="height:50px;"></div>
-    
-    <header class="row no-border">   
-      <div class="col-sm-2 col-sm-offset-1">
-            <img src="assets/img/profilepic.jpg" alt="Sara Randolph Profile Picture"
-            height="300px">
-        </div>
-        <div class="col-sm-8 col-sm-offset-1">
-            <h1>Sara Randolph</h1>
-            <h2>Software Engineer</h2>
-            <p>Recent college graduate with a BS in Marketing and a BA in Spanish. Two years experience in SEO internet marketing
-                and is a recent full stack developer student. Has developed the ability to learn new skills efficiently. Operates
-                with a desire to learn new things and is open to new experiences. </p>
-            <i class="glyphicon glyphicon-envelope">  sara.randolph222@gmail.com </i> 
-            <br>
-            <i class="glyphicon glyphicon-globe">  GitHubProfile <a href="http://sararandolph.github.io/" target="_blank"> /sararandolph </a></i>
-        </div>
-    </header>
-    
-  
-    
-    <section class="spacer"</section>
-    <!--<hr>-->
-    
-    <section class="row">
-    
-        
-    <div class="col-sm-2 col-sm-offset-1">
-        <h2>Skills</h2>
-    </div>
-    <div class="col-sm-8">
 
-        <div class="experience-container">
-            <div class="sidebar-topic">Skills &amp; Areas of Expertise</div>
-            <!-- Begin Skills List -->
-            <ul class="list-group skills">
-                <li class="list-group-item">JavaScript: Angular, Node, MongoDb, Grunt, Gulp, webpack, JQuery, React
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 5%">
-                            <span class="sr-only">5% Complete (danger)</span>
-                        </div>
+
+<body>
+
+
+    <!--<img src="assets/img/profilepic.jpg" alt="Sara Randolph Profile Picture"
+            height="300px">-->
+
+
+    <!--Header with name-->
+    <header class="row">
+        <div class="col-sm-12">
+            <div class="col-sm-6 text-left ">
+                <div>
+                    <h2 class="h2-custom ">Software Engineer</h2>
+                    <h1 class="h1-custom ">Sara</h1>
+                    <h1 class="h1-custom ">Randolph</h1>
+                    <i class="glyphicon glyphicon-envelope ">  sara.randolph222@gmail.com </i>
+                    <br>
+                    <i class="glyphicon glyphicon-globe ">  GitHubProfile <a href="http://sararandolph.github.io/ " target="_blank "> /SaraRandolph </a></i>
+                </div>
+                <!--start other stuff-->
+                <!--Start About Me Header - Left-->
+                <section class="row">
+                    <div class="col-sm-6">
+                        <h3 class="h3-custom">About Me</h3>
                     </div>
-                </li>
-                <li class="list-group-item">CSS: Less, Sass, Stylus
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 25%">
-                            <span class="sr-only">25% Complete (danger)</span>
-                        </div>
+                </section>
+                <!--End About Me Header - Left-->
+
+                <!--Start About Me text - Left-->
+                <section class="row">
+                    <div class="col-sm-12">
+                        <blockquote class="blockquote-reverse">
+                            <p>Recent college graduate with a BS in Marketing and a BA in Spanish. Two years experience in SEO
+                                internet marketing and is a recent full stack developer student. Has developed the ability
+                                to learn new skills efficiently. Operates with a desire to learn new things and is open to
+                                new experiences.</p>
+                        </blockquote>
                     </div>
-                </li>
-                <li class="list-group-item">Microsoft's: COMING SOON
-                    <!--C#, ASP.Net, SQL-Server, Entity Framework-->
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 100%">
-                            <span class="sr-only">100% Complete (danger)</span>
-                        </div>
+                </section>
+                <!--End About Me text - Left-->
+
+
+                <!--Start Skills - Left-->
+                <section class="row">
+                    <div class="col-sm-12">
+                        <h3 class="h3-custom">Skills</h3>
                     </div>
-                </li>
-                <li class="list-group-item">Package Managers: COMING SOON
-                    <!--Bower, NPM, Nuget, jspm-->
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 100%">
-                            <span class="sr-only">100% Complete (danger)</span>
+                </section>
+                <!--End Skills - Left-->
+
+                <!--Start Skills Box - Left-->
+                <section>
+                    <div class="col-sm-12">
+                        <div class="experience-container">
+                            <div class="sidebar-topic">Skills &amp; Areas of Expertise</div>
+                            <!-- Begin Skills List -->
+                            <ul class="list-group skills">
+                                <li class="list-group-item">SEO
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar red" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">JavaScript: Angular, Node, MongoDb, Grunt, Gulp, webpack, JQuery, React
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar red" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+                                            <span class="sr-only">5% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">CSS: Less, Sass, Stylus
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar red" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                                            <span class="sr-only">25% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">Microsoft's: COMING SOON
+                                    <!--C#, ASP.Net, SQL-Server, Entity Framework-->
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar light-teal" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">Package Managers: COMING SOON
+                                    <!--Bower, NPM, Nuget, jspm-->
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar light-teal" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">TDD: COMING SOON
+                                    <!--Selenium, Jasmine, Karma, PhantomJS-->
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar light-teal" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">Source Control: Git, Github, BitBucket
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar red" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                                            <span class="sr-only">10% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">Bilingual: Spanish - Speaking, Writing, Reading
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar red" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                            <span class="sr-only">90% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!--End Skills List-->
+                </section>
+                <!--End Skills Box-->
+                </div>
+                <!--Start timeline-->
+                <div class="col-sm-6">
+                   <h3>Education/Work Experience</h3>
+                    <!--timeline template start-->
+                    <section class="row">
+                        <div class="col-sm-12">
+                            <ul class="timeline">
+                                <li>
+                                    <!---Time Line Element--->
+                                    <div class="timeline-badge up"><i class="fa fa-thumbs-up"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h5 class="h5-custom">August 2009 - May 2012</h5>
+                                            <h4 class="timeline-title h4-custom"> University of Idaho<span class="timeline-subtitle">Boise, Idaho</span></h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <!---Time Line Body&Content--->
+                                            <p>Bachelor of Science in Marketing, Bachelor of Arts in Spanish </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!---Time Line Element--->
+                                    <div class="timeline-badge down"><i class="fa fa-thumbs-down"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h5 class="h5-custom">March 2014 - Current</h5>
+                                            <h4 class="timeline-title h4-custom">Tutor Doctor <span class="timeline-subtitle">Boise, Idaho</span></h4>
+                                            <h5 class="h5-custom">Tutor</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <!---Time Line Body&Content--->
+                                            <p>Tutor middle school and high school students in topics including study skills,
+                                                SAT prep, ACT prep, middle school math, middle school writing, and middle
+                                                school reading
+                                            </p>
+                                            <p>Prepare specialized curriculum based on student’s needs.</p>
+                                            <p>Work with foreign students to prepare them for standardized tests</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!---Time Line Element--->
+                                    <div class="timeline-badge neutral"><i class="fa fa-navicon"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h5 class="h5-custom">June 2013 - April 2015</h5>
+                                            <h4 class="timeline-title h4-custom">PageOnePower<span class="timeline-subtitle">Boise, Idaho</span></h4>
+                                            <h5 class="h5-custom">SEO Expert</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <!---Time Line Body&Content--->
+                                            <p>Evaluate company's overall website, focusing on their user's on-site experience,
+                                                social media and SEO value </p>
+                                            <p>Utilized white-hat tactics to assist clients in improving SERP visibility.</p>
+                                            <p>Collaborate in small teams to develop strategy reports to help clients reach
+                                                specific goals
+                                            </p>
+                                            <p>Developed & maintained client-approved campaign strategies using on-site/on-page
+                                                analysis and optimization, thorough backlink audits, link analysis, local
+                                                checklists, competitor research, etc.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!---Time Line Element--->
+                                    <div class="timeline-badge down"><i class="fa fa-thumbs-down"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h5 class="h5-custom">April 2015 - December 2015</h5>
+                                            <h4 class="timeline-title h4-custom">ESL Teacher <span class="timeline-subtitle">Ancud, Chile</span></h4>
+                                            <h5 class="h5-custom">Profesora</h5>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <!---Time Line Body&Content--->
+                                            <p>Employed by the Chilean Ministry of Education (MINEDUC) and the United Nations
+                                                Development Program to teach English to high school students as part of the
+                                                English Opens Doors Program</p>
+                                            <p>Developed material and lesson plans for 150 students.</p>
+                                            <p>Collaborated with fellow teachers to maintain consistent and complementary educational
+                                                goals and teaching techniques.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <!---Time Line Element--->
+                                    <div class="timeline-badge up"><i class="fa fa-thumbs-up"></i></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h5 class="h5-custom">Jan 2016-March 2016</h5>
+                                            <h4 class="timeline-title h4-custom">BoiseCodeWorks <span class="timeline-subtitle">Boise, Idaho</span></h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <!---Time Line Body&Content--->
+                                            <p>Immersive Full Stack Developer Winter 2016 Cohort- <i>Graduate March 2016</i>
+                                                <p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                </li>
-                <li class="list-group-item">TDD: COMING SOON
-                    <!--Selenium, Jasmine, Karma, PhantomJS-->
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 100%">
-                            <span class="sr-only">100% Complete (danger)</span>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">Source Control: Git, Github, BitBucket
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 10%">
-                            <span class="sr-only">10% Complete (danger)</span>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">Bilingual: Spanish - Speaking, Writing, Reading
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                        style="width: 90%">
-                            <span class="sr-only">90% Complete (danger)</span>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-</section>
-         
-    <section class="spacer"</section>       
-    <!--<hr>-->
-    <section class="row">
-        <div class="col-sm-2 col-sm-offset-1">
-            <h2>Education</h2>
+                    </section>
+
+                    <!--timeline template end-->
+
+                </div>
+                </div>
+    </header>
+    <!--End of Header-->
+
+
+
+
+    <!--Start Education / Work Experience - Right-->
+    <!--<section class="row">
+        <div class="col-sm-6">
+            <h3>Education/Work Experience</h3>
         </div>
-        <div class="col-sm-8">
-            <div>
-                <h3>BoiseCodeWorks</h3>
-                <p>Immersive Full Stack Developer Winter 2016 Cohort- <i>Graduate March 2016</i><p>
+        <div class="col-sm-6">
+            <div>-->
+    <!--August2009-May 2013-->
+    <!--<h4>University of Idaho</h4><h5>Moscow, Idaho</h5>
+                <p>Bachelor of Science in Marketing, Bachelor of Arts in Spanish </p>
             </div>
             <div>
-                <h3>University of Idaho</h3>
-                <p>Bachelor of Science in Marketing, Bachelor of Arts in Spanish - <i>Graduated May 2013</i></p>
-            </div>
-        </div>    
-    </section>
-    
-    <section class="spacer"</section>
-    <!--<hr>-->
-    
-    <section class="row">
-        <div class="col-sm-2 col-sm-offset-1">
-            <h2>Relevant Work History</h2>
-        </div>
-        <div class="col-sm-8">
-            <div>
-                <h3>Tutor Doctor</h3>
-                <h4>Tutor</h4>
-                <p><i>March 2014 - Current, Boise, ID</i></p>
-                <p>Tutor middle school and high school students in topics including study skills, SAT prep, ACT prep, middle school
+                <h4>Tutor Doctor</h4><h5>Tutor</h5><h5>Boise, Idaho</h5>-->
+    <!--<p><i>March 2014 - Current, Boise, ID</i></p>-->
+    <!--<p>Tutor middle school and high school students in topics including study skills, SAT prep, ACT prep, middle school
                     math, middle school writing, and middle school reading</p>
                 <p>Prepare specialized curriculum based on student’s needs.</p>
                 <p>Work with foreign students to prepare them for standardized tests</p>
             </div>
             <div>
-                <h3>ESL Teacher</h3>
-                <h4>Instructor</h4>
-                <p><i>April 2015 - December 2015, Ancud, Chile</i></p>
-                <p>Employed by the Chilean Ministry of Education (MINEDUC) and the United Nations Development Program to teach English to high school students as part of the English Opens Doors Program</p>
-                <p>Developed material and lesson plans for 150 students.</p>
-                <p>Collaborated with fellow teachers to maintain consistent and complementary educational goals and teaching techniques.</p>
-            </div>
-            <div>
-                <h3>PageOnePower</h3>
-                <h4>SEO Expert</h4>
-                <p><i>June 2013 - April 2015, Boise,ID</i></p>
-                <p>Evaluate company's overall website, focusing on their user's on-site experience, social media and SEO value </p>
+                <h4>PageOnePower</h4><h5>SEO Expert</h5><h5>Boise, Idaho</h5>-->
+    <!--<p><i>June 2013 - April 2015, Boise,ID</i></p>-->
+    <!--<p>Evaluate company's overall website, focusing on their user's on-site experience, social media and SEO value </p>
                 <p>Utilized white-hat tactics to assist clients in improving SERP visibility.</p>
                 <p>Collaborate in small teams to develop strategy reports to help clients reach specific goals</p>
                 <p>Developed & maintained client-approved campaign strategies using on-site/on-page analysis and optimization, thorough backlink audits, link analysis, local checklists, competitor research, etc.</p>
             </div>
-        </div>
-    </section>
-    
-    <section class="spacer"</section>
-    <!--<hr>-->
-    
-    
-    
-  </body>
+            <div>
+                <h4>ESL Teacher</h4><h5>Instructor</h5><h5> Ancud, Chile</h5>-->
+    <!--<p><i>April 2015 - December 2015,</i></p>-->
+    <!--<p>Employed by the Chilean Ministry of Education (MINEDUC) and the United Nations Development Program to teach English to high school students as part of the English Opens Doors Program</p>
+                <p>Developed material and lesson plans for 150 students.</p>
+                <p>Collaborated with fellow teachers to maintain consistent and complementary educational goals and teaching techniques.</p>
+            </div>
+            <div>-->
+    <!--Jan 2016-March 2016-->
+    <!--<h4>BoiseCodeWorks</h4><h5>Boise, Idaho</h5>
+                <p>Immersive Full Stack Developer Winter 2016 Cohort- <i>Graduate March 2016</i><p>
+            </div>
+            
+        </div>    
+    </section>-->
+
+    <!--End Education / Work Experience - Right-->
+
+
+
+    <!--thisss-->
+</body>
+
 </html>
