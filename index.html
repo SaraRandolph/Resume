@@ -3,86 +3,176 @@
   <head>
     <meta charset="UTF-8">
     <title>Sara's Resume</title>
-    <link rel="stylesheet" href="/assets/styles/style.css">
-  </head>
+   <link rel="stylesheet" href="assets/styles/style.css">
+    
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+    crossorigin="anonymous">-->
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
   
   
-  
-  <body>
+  <body>   
       
-    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <div class="col-xs-12" style="height:50px;"></div>
     
-    <h1>Sara Randolph</h1>
-    <img src="https://s-media-cache-ak0.pinimg.com/736x/4d/f5/b4/4df5b4a99ab3b10a72f4753767672c02.jpg" height="190px" alt="profile picture" />
+    <header class="row no-border">   
+      <div class="col-sm-2 col-sm-offset-1">
+            <img src="assets/img/profilepic.jpg" alt="Sara Randolph Profile Picture"
+            height="300px">
+        </div>
+        <div class="col-sm-8 col-sm-offset-1">
+            <h1>Sara Randolph</h1>
+            <h2>Software Engineer</h2>
+            <p>Recent college graduate with a BS in Marketing and a BA in Spanish. Two years experience in SEO internet marketing
+                and is a recent full stack developer student. Has developed the ability to learn new skills efficiently. Operates
+                with a desire to learn new things and is open to new experiences. </p>
+            <i class="glyphicon glyphicon-envelope">  sara.randolph222@gmail.com </i> 
+            <br>
+            <i class="glyphicon glyphicon-globe">  GitHubProfile <a href="http://sararandolph.github.io/" target="_blank"> /sararandolph </a></i>
+        </div>
+    </header>
     
-    <section class="about">
-      <p>Recent college graduate with a BS in Marketing and a BA in Spanish. Two years experience in SEO internet marketing and is a recent full stack developer student. Has developed the ability to learn new skills efficiently. Operates with a  desire to learn new things and is open to new experiences. </p>
+  
+    
+    <section class="spacer"</section>
+    <!--<hr>-->
+    
+    <section class="row">
+    
+        
+    <div class="col-sm-2 col-sm-offset-1">
+        <h2>Skills</h2>
+    </div>
+    <div class="col-sm-8">
+
+        <div class="experience-container">
+            <div class="sidebar-topic">Skills &amp; Areas of Expertise</div>
+            <!-- Begin Skills List -->
+            <ul class="list-group skills">
+                <li class="list-group-item">JavaScript: Angular, Node, MongoDb, Grunt, Gulp, webpack, JQuery, React
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 5%">
+                            <span class="sr-only">5% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">CSS: Less, Sass, Stylus
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 25%">
+                            <span class="sr-only">25% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">Microsoft's: COMING SOON
+                    <!--C#, ASP.Net, SQL-Server, Entity Framework-->
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 100%">
+                            <span class="sr-only">100% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">Package Managers: COMING SOON
+                    <!--Bower, NPM, Nuget, jspm-->
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 100%">
+                            <span class="sr-only">100% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">TDD: COMING SOON
+                    <!--Selenium, Jasmine, Karma, PhantomJS-->
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 100%">
+                            <span class="sr-only">100% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">Source Control: Git, Github, BitBucket
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 10%">
+                            <span class="sr-only">10% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">Bilingual: Spanish - Speaking, Writing, Reading
+                    <div class="progress progress-striped">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                        style="width: 90%">
+                            <span class="sr-only">90% Complete (danger)</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+</section>
+         
+    <section class="spacer"</section>       
+    <!--<hr>-->
+    <section class="row">
+        <div class="col-sm-2 col-sm-offset-1">
+            <h2>Education</h2>
+        </div>
+        <div class="col-sm-8">
+            <div>
+                <h3>BoiseCodeWorks</h3>
+                <p>Immersive Full Stack Developer Winter 2016 Cohort- <i>Graduate March 2016</i><p>
+            </div>
+            <div>
+                <h3>University of Idaho</h3>
+                <p>Bachelor of Science in Marketing, Bachelor of Arts in Spanish - <i>Graduated May 2013</i></p>
+            </div>
+        </div>    
     </section>
     
-    <h2>Work History</h2>
-    <section class="work-history">
-            <ul>
-                <li>
-                <div>
-                  <h3>Tutor Doctor</h3>
-                  <h4>Tutor</h4>
-                  <p><i>March 2014 - Current</i></p>
-                  <p>Tutor middle school and high school students in topics including study skills, SAT prep, ACT prep, middle school math, middle school writing, and middle school reading</p>
-                  <p>Prepare specialized curriculum based on student’s needs.</p>
-                  <p>Work with foreign students to prepare them for standardized tests</p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>ESL Teacher</h3>
-                  <h4>Instructor</h4>
-                  <p><i>April 2015 - December 2015</i></p>
-                  <p>Employed by the Chilean Ministry of Education (MINEDUC) and the United Nations Development Program to teach English to high school students as part of the English Opens Doors Program</p>
-                  <p>Developed material and lesson plans for 150 students.</p>
-                  <p>Collaborated with fellow teachers to maintain consistent and complementary educational goals and teaching techniques.</p>
-                </div>
-              </li> 
-              <li>
-                <div>
-                  <h3>PageOnePower</h3>
-                  <h4>SEO Expert</h4>
-                  <p><i>June 2013 - April 2015</i></p>
-                  <p>Evaluate company's overall website, focusing on their user's on-site experience, social media and SEO value </p>
-                  <p>Utilized white-hat tactics to assist clients in improving SERP visibility.</p>
-                  <p>Collaborate in small teams to develop strategy reports to help clients reach specific goals</p>
-                  <p>Developed & maintained client-approved campaign strategies using on-site/on-page analysis and optimization, thorough backlink audits, link analysis, local checklists, competitor research, etc.</p>
-                </div>
-              </li>
-            </ul>  
+    <section class="spacer"</section>
+    <!--<hr>-->
+    
+    <section class="row">
+        <div class="col-sm-2 col-sm-offset-1">
+            <h2>Relevant Work History</h2>
+        </div>
+        <div class="col-sm-8">
+            <div>
+                <h3>Tutor Doctor</h3>
+                <h4>Tutor</h4>
+                <p><i>March 2014 - Current, Boise, ID</i></p>
+                <p>Tutor middle school and high school students in topics including study skills, SAT prep, ACT prep, middle school
+                    math, middle school writing, and middle school reading</p>
+                <p>Prepare specialized curriculum based on student’s needs.</p>
+                <p>Work with foreign students to prepare them for standardized tests</p>
+            </div>
+            <div>
+                <h3>ESL Teacher</h3>
+                <h4>Instructor</h4>
+                <p><i>April 2015 - December 2015, Ancud, Chile</i></p>
+                <p>Employed by the Chilean Ministry of Education (MINEDUC) and the United Nations Development Program to teach English to high school students as part of the English Opens Doors Program</p>
+                <p>Developed material and lesson plans for 150 students.</p>
+                <p>Collaborated with fellow teachers to maintain consistent and complementary educational goals and teaching techniques.</p>
+            </div>
+            <div>
+                <h3>PageOnePower</h3>
+                <h4>SEO Expert</h4>
+                <p><i>June 2013 - April 2015, Boise,ID</i></p>
+                <p>Evaluate company's overall website, focusing on their user's on-site experience, social media and SEO value </p>
+                <p>Utilized white-hat tactics to assist clients in improving SERP visibility.</p>
+                <p>Collaborate in small teams to develop strategy reports to help clients reach specific goals</p>
+                <p>Developed & maintained client-approved campaign strategies using on-site/on-page analysis and optimization, thorough backlink audits, link analysis, local checklists, competitor research, etc.</p>
+            </div>
+        </div>
     </section>
     
-    <h2>Education</h2>
-    <section class="education">
-         <ul>
-             <li>
-                <div>
-                  <h3>BoiseCodeWorks</h3>
-                  <p>Full Stack Developer Student - <i>January 2016</i></p>
-                  <p></p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>University of Idaho</h3>
-                  <p>Bachelor of Science in Marketing, Bachelor of Arts in Spanish - <i>May 2013</i></p>
-                </div>
-              </li>
-          </ul>
-          
-       ul>li*8
-       
-              
-              
-  <div id="left"></div>
-  <div id="right"></div>
-  <div id="top"></div>
-  <div id="bottom"></div>
-      
-    </section>
+    <section class="spacer"</section>
+    <!--<hr>-->
+    
+    
+    
   </body>
 </html>
