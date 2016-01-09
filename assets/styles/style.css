@@ -120,19 +120,29 @@
 }
 
 .h1-custom{
-    color: #8DF4E4;
-    font-size:90px;
+    color: #59e0c9;
+    font-size:107px;
     font-weight:bold;
-    margin:-10 -15 -10 -10;
+    margin:-10 -15 -1 -10;
 }
 
 .h2-custom{
-    margin-bottom: -10;
+    margin-bottom: -25px;
+    font-size:34;
+    font-weight:bold;
+    
+}
+
+.h3-custom{
+    color:#59e0c9;
     
 }
 
 body{
     color:black;
+    font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif; 
+    background: white;
+
 }
 
 .list-group-item {
@@ -140,7 +150,7 @@ body{
         margin-bottom: -26px;
 }
 .red {
-    background-color: #ff3333;
+    background-color: #FF5454;
 }
 
 .light-teal {
@@ -148,9 +158,61 @@ body{
    
 }
 
-
+.margin-bottom{
+    margin-bottom: -34px;;
+}
 
 .progress {
     border-radius: 0;
     background-color:#DDDDDD;
+}
+
+a:hover, a:focus {
+    color: #FF5454;
+    text-decoration: underline;
+}
+
+.spacer {
+    margin-bottom: 40px;
+}
+
+.about-me{
+    margin:none;
+    font-size:18px;
+    background-color:lightgrey;
+    margin-left: 7;
+    margin-top: 0px;
+}
+
+.red-text{
+    color:#ff3333;
+}
+
+.h3-blue-font{ 
+    color:#ACF7EB;
+    display:inline-block;
+}
+.h3-slash{  
+    display:inline-block;
+}
+
+.timeline-badge.up {
+    background-color: #ff3333 !important;
+}
+
+.timeline-badge.down {
+    background-color: #59e0c9 !important;
+}
+
+.education-red{
+    margin-left: 40;
+    color:#FF5454;
+}
+
+.black-slash{
+    color:black;
+}
+
+.about-me-p{
+    margin-top: -30;
 }
