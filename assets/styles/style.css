@@ -121,7 +121,7 @@
 
 .h1-custom{
     color: #59e0c9;
-    font-size:107px;
+    font-size:1000%;
     font-weight:bold;
     margin:-10 -15 -1 -10;
 }
@@ -173,7 +173,7 @@ a:hover, a:focus {
 }
 
 .spacer {
-    margin-bottom: 40px;
+    margin: 20px;
 }
 
 .about-me{
@@ -181,7 +181,7 @@ a:hover, a:focus {
     font-size:18px;
     background-color:lightgrey;
     margin-left: 7;
-    margin-top: 0px;
+    margin-top: 30;
 }
 
 .red-text{
@@ -213,6 +213,9 @@ a:hover, a:focus {
     color:black;
 }
 
-.about-me-p{
-    margin-top: -30;
+.about-me-bottom-spacer{
+    margin-bottom: -15;
+    margin-top: 25px
 }
+
+.mobile-size{   }
