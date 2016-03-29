@@ -83,18 +83,7 @@
   left: -14px;
   right: auto;
 }
-.timeline-badge.primary {
-  background-color: #006699  !important;
-}
-.timeline-badge.up {
-  background-color: #339933 !important;
-}
-.timeline-badge.down {
-  background-color: #CC3333 !important;
-}
-.timeline-badge.neutral {
-  background-color: #999999 !important;
-}
+
 .timeline-title {
   margin-top: 0;
   color: inherit;
@@ -115,7 +104,7 @@
 }
 
 .h1-custom{
-    color: #59e0c9;
+    color: #32C7B6;
     font-size:109px;
     font-weight:bold;
     margin:10 -15 -1 -10;
@@ -130,12 +119,12 @@
 }
 
 .h3-custom{
-    color:#59e0c9;
+    color:#32C7B6;
     
 }
 
 body{
-    color:black;
+    color:#3F5361;
     font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif; 
     background: white;
 
@@ -145,12 +134,13 @@ body{
         border: none; 
         margin-bottom: -26px;
 }
-.red {
-    background-color: #FF5454;
+.salmon {
+    background-color: #CE7867;
 }
 
-.light-teal {
-    background-color: #ACF7EB;
+
+.blue {
+    background-color: #32C7B6;
    
 }
 
@@ -164,7 +154,7 @@ body{
 }
 
 a:hover, a:focus {
-    color: #FF5454;
+    color: #CE7867;
     text-decoration: underline;
 }
 
@@ -181,7 +171,7 @@ a:hover, a:focus {
 }
 
 .red-text{
-    color:#ff3333;
+    color:#FA2A26;
 }
 
 .h3-blue-font{ 
@@ -193,16 +183,16 @@ a:hover, a:focus {
 }
 
 .timeline-badge.up {
-    background-color: #ff3333 !important;
+    background-color: #FA2A26 !important;
 }
 
 .timeline-badge.down {
-    background-color: #59e0c9 !important;
+    background-color: #32C7B6 !important;
 }
 
 .education-red{
     margin-left: 40;
-    color:#FF5454;
+    color:#FA2A26;
 }
 
 .black-slash{
@@ -238,4 +228,8 @@ a:hover, a:focus {
 
 .box-spacer{
     margin-right:10px;
+}
+
+.dark-blue{
+    color: #3F5361;
 }
